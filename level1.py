@@ -14,26 +14,27 @@
 # total=locked_ai_weights[0]+locked_ai_weights[1]+locked_ai_weights[2]
 # print(f"{locked_ai_weights} and the total is {total}")
 
-player_bag = ["Sword", "Trash", "Shield", "Trash", "Health Potion", "Trash"]
-clean_bag = []
-print("len(player_bag):", len(player_bag))
-for i in range(len(player_bag)):
-	if player_bag[i]!="Trash":
-		temp=player_bag[i]
-		clean_bag.append(temp)
-		print("clean_bag:", clean_bag)
-		i=i+1
-	else:
-		print("no")
-		i+1
-print("clean bag:", clean_bag)
+# player_bag = ["Sword", "Trash", "Shield", "Trash", "Health Potion", "Trash"]
+# clean_bag = []
+# print("len(player_bag):", len(player_bag))
+# for i in range(len(player_bag)):
+# 	if player_bag[i]!="Trash":
+# 		temp=player_bag[i]
+# 		clean_bag.append(temp)
+# 		print("clean_bag:", clean_bag)
+# 		i=i+1
+# 	else:
+# 		print("no")
+# 		i+1
+# print("clean bag:", clean_bag)
 
 # player_bag = ["Sword", "Trash", "Shield", "Trash", "Health Potion", "Trash"]
 # clean_bag = []
-# for item in player_bag:
-#     if item != "Trash":
-#         clean_bag.append(item)
-#         print(f"kept {item} in clean_bag: {clean_bag}")                
+# for i in player_bag:
+#     if i != "Trash":
+#         clean_bag.append(i)
+#         print(f"kept {i} in clean_bag: {clean_bag}")                
 #     else:
 #         print("discarded Trash")
 # print("final clean_bag:", clean_bag)
+
