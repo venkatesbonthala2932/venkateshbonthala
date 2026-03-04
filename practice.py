@@ -1,6 +1,7 @@
 # # #average of numbers in list
 list_1=[]
-for i in range(n):
+number_elements=int(input("enter the number of elements you want to add in list "))
+for i in range(number_elements):
 	m=int(input(f"enter the numbers{i+1}: "))
 	list_1.append(m)
 print(f"the {sum(list_1)} is sum of elements, aveg is {sum(list_1)/number_elements}")
