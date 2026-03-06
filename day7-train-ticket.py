@@ -4,7 +4,7 @@
 passenger_age = int(input("Enter passenger age: "))
 base_fare = float(input("Enter base fare (e.g., 500): "))
 
-tatkal_input = input("Is Tatkal? (yes/no): ").strip().lower()
+tatkal_input = input("is tatkal (yes/no): ").strip().lower()
 is_tatkal = (tatkal_input == "yes")
 
 
